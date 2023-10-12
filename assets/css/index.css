@@ -1,0 +1,142 @@
+
+
+
+body h2 {
+    font-size: 25px;
+    font-weight: bolder;
+    line-height: 2.1em;
+}
+
+
+
+
+
+
+.square{
+    width: 45px;
+    height: 45px;
+    background-color: #8c096d;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    display: inline;
+    float: left;
+}
+
+.square:hover{
+    width: 45px;
+    height: 45px;
+    background-color: white ;
+    color: #8c096d;
+    text-align: center;
+    justify-content: center;
+    display: inline;
+    float: left;
+}
+
+
+.size
+{
+    display: inline;
+    float: left;
+}
+.accordion-button 
+{
+    padding: 0px 22px 0px 22px !important;
+}
+
+.accordion-button::after{
+    width: 18px!important;
+    height: 14px!important;
+    color: white!important;
+}
+
+.details
+{
+    z-index: 99999;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.details .up
+{
+    padding: 2px 20px 2px 20px;
+}
+
+.accordion-button:not(.collapsed)
+{
+    background-color: #8c096d;
+    color: white;
+    box-shadow:none;
+}
+.accordion-button:focus {
+    border-color:#8c096d!important ;
+    box-shadow:none;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 1rem;
+    height: 1rem;
+
+}
+.fixed-images
+{
+    position: fixed;
+}
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-size: 10px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 1rem;
+    height: 1rem;
+}
